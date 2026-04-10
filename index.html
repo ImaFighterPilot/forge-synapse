@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Forge Synapse – Custom AI Agent Systems</title>
-<meta name="description" content="Forge Synapse builds custom multi-agent AI systems that automate your workflows, scale your operations, and deliver measurable ROI.">
+<meta name="description" content="Forge Synapse builds custom multi-agent AI systems that automate your workflows, scale your operations, and deliver measurable ROI — deployed in days, not months.">
 <meta property="og:title" content="Forge Synapse – Custom AI Agent Systems">
-<meta property="og:description" content="We build autonomous multi-agent AI systems for lead generation, customer support, and business operations.">
+<meta property="og:description" content="Autonomous multi-agent AI systems for lead generation, customer support, and business operations. Based in Europe. Working globally.">
 <meta property="og:url" content="https://forge-synapse.io">
 <meta property="og:type" content="website">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Forge Synapse","url":"https://forge-synapse.io","description":"Custom multi-agent AI systems for business automation.","areaServed":"Worldwide","serviceType":["AI Agent Development","Business Automation","Multi-Agent Systems"]}</script>
@@ -38,21 +38,31 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:18px 5%;display:flex
 .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(99,102,241,.09);border:1px solid rgba(99,102,241,.28);border-radius:100px;padding:6px 18px;font-size:13px;color:var(--cyan);margin-bottom:36px;animation:fadeUp .8s ease both}
 .hero-badge-dot{width:6px;height:6px;background:var(--cyan);border-radius:50%;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
-h1{font-family:'Syne',sans-serif;font-size:clamp(46px,7.5vw,94px);font-weight:800;line-height:.98;letter-spacing:-3px;margin-bottom:30px;animation:fadeUp .8s .1s ease both}
+h1{font-family:'Syne',sans-serif;font-size:clamp(38px,6vw,80px);font-weight:800;line-height:1.05;letter-spacing:-2.5px;margin-bottom:30px;animation:fadeUp .8s .1s ease both}
 .gradient-text{background:linear-gradient(135deg,var(--indigo) 0%,var(--cyan) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.hero-sub{font-size:clamp(17px,2vw,21px);color:var(--subtle);line-height:1.72;max-width:640px;margin:0 auto 52px;font-weight:300;animation:fadeUp .8s .2s ease both}
+.hero-sub{font-size:clamp(16px,1.8vw,19px);color:var(--subtle);line-height:1.75;max-width:680px;margin:0 auto 48px;font-weight:300;animation:fadeUp .8s .2s ease both}
 .hero-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;animation:fadeUp .8s .3s ease both}
 .btn-primary{background:linear-gradient(135deg,var(--indigo),var(--violet));color:white;padding:17px 34px;border-radius:10px;font-size:16px;font-weight:500;text-decoration:none;box-shadow:0 0 32px rgba(99,102,241,.42);transition:transform .2s,box-shadow .2s;display:inline-flex;align-items:center;gap:8px}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 52px rgba(99,102,241,.62)}
 .btn-secondary{background:transparent;color:white;padding:17px 34px;border-radius:10px;font-size:16px;font-weight:500;text-decoration:none;border:1px solid rgba(255,255,255,.14);transition:border-color .2s,background .2s;display:inline-flex;align-items:center;gap:8px}
 .btn-secondary:hover{border-color:var(--indigo);background:rgba(99,102,241,.07)}
 @keyframes fadeUp{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
-.hero-stats{display:flex;justify-content:center;gap:52px;margin-top:84px;animation:fadeUp .8s .5s ease both;flex-wrap:wrap}
+
+/* LEAD FORM */
+.hero-form{margin-top:36px;animation:fadeUp .8s .45s ease both;display:flex;flex-direction:column;align-items:center;gap:8px}
+.hero-form-inner{display:flex;gap:0;max-width:480px;width:100%;border-radius:10px;overflow:hidden;border:1px solid rgba(99,102,241,.3);background:rgba(15,20,35,.8);backdrop-filter:blur(12px)}
+.hero-form-input{flex:1;background:transparent;border:none;outline:none;padding:14px 18px;font-size:15px;color:var(--text);font-family:'DM Sans',sans-serif}
+.hero-form-input::placeholder{color:var(--muted)}
+.hero-form-btn{background:linear-gradient(135deg,var(--indigo),var(--violet));color:white;border:none;padding:14px 22px;font-size:14px;font-weight:600;cursor:none;font-family:'DM Sans',sans-serif;white-space:nowrap;transition:opacity .2s}
+.hero-form-btn:hover{opacity:.85}
+.hero-form-note{font-size:12px;color:var(--muted);text-align:center}
+
+.hero-stats{display:flex;justify-content:center;gap:52px;margin-top:64px;animation:fadeUp .8s .6s ease both;flex-wrap:wrap}
 .stat-num{font-family:'Syne',sans-serif;font-size:34px;font-weight:800;background:linear-gradient(135deg,white,var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .stat-label{font-size:13px;color:var(--muted);margin-top:4px}
 #trust{padding:38px 5%;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2)}
 .trust-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:44px;justify-content:center;flex-wrap:wrap}
-.trust-label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1.8px;white-space:nowrap}
+.trust-label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1.8px;white-space:nowrap;max-width:260px;text-align:center;line-height:1.5}
 .trust-logos{display:flex;gap:38px;align-items:center;flex-wrap:wrap;justify-content:center}
 .trust-logo{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:white;opacity:.22;transition:opacity .2s}
 .trust-logo:hover{opacity:.5}
@@ -126,6 +136,8 @@ section{padding:104px 5%}
 .btn-pricing-outline:hover{border-color:var(--indigo);background:rgba(99,102,241,.07)}
 .btn-pricing-filled{background:linear-gradient(135deg,var(--indigo),var(--violet));color:white;box-shadow:0 0 20px rgba(99,102,241,.3)}
 .btn-pricing-filled:hover{box-shadow:0 0 40px rgba(99,102,241,.5);transform:translateY(-1px)}
+.pricing-note{margin-top:40px;padding:24px;background:var(--surface);border:1px solid var(--border);border-radius:14px;text-align:center;color:var(--subtle);font-size:15px;line-height:1.65}
+.pricing-note strong{color:var(--text)}
 #results{background:var(--bg2)}
 .results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:58px}
 .result-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:34px;transition:transform .3s,border-color .3s}
@@ -135,6 +147,7 @@ section{padding:104px 5%}
 .result-card h3{font-family:'Syne',sans-serif;font-size:17px;font-weight:700;margin-bottom:10px}
 .result-card p{color:var(--subtle);font-size:14px;line-height:1.62}
 .result-industry{display:inline-block;margin-top:18px;font-size:12px;color:var(--indigo);border:1px solid rgba(99,102,241,.28);padding:3px 10px;border-radius:100px}
+.result-payback{display:inline-block;margin-top:8px;margin-left:6px;font-size:12px;color:var(--cyan);border:1px solid rgba(34,211,238,.28);padding:3px 10px;border-radius:100px}
 #testimonials{background:var(--bg)}
 .testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:58px}
 .testimonial-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:34px;position:relative}
@@ -168,12 +181,14 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:58px 5% 
 .footer-bottom{max-width:1100px;margin:0 auto;padding-top:28px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--muted)}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
 .reveal.visible{opacity:1;transform:translateY(0)}
-@media(max-width:768px){.nav-links{display:none}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.pricing-grid,.results-grid,.testimonials-grid{grid-template-columns:1fr}.solution-layout{grid-template-columns:1fr}.solution-visual{display:none}.footer-inner{grid-template-columns:1fr;gap:32px}.hero-stats{gap:26px}}
+@media(max-width:768px){.nav-links{display:none}.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}.pricing-grid,.results-grid,.testimonials-grid{grid-template-columns:1fr}.solution-layout{grid-template-columns:1fr}.solution-visual{display:none}.footer-inner{grid-template-columns:1fr;gap:32px}.hero-stats{gap:26px}.hero-form-inner{flex-direction:column;border-radius:10px}.hero-form-btn{padding:14px;border-radius:0 0 8px 8px}}
 </style>
 </head>
 <body>
 <div class="cursor" id="cursor"></div>
 <div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
 <nav>
   <div class="nav-logo">Forge Synapse</div>
   <ul class="nav-links">
@@ -191,27 +206,53 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:58px 5% 
     <a href="#cta" class="nav-cta" data-en="Free Audit →" data-pl="Bezpłatny audyt →">Free Audit →</a>
   </div>
 </nav>
+
+<!-- HERO -->
 <section id="hero">
   <div class="hero-bg"></div>
   <div class="hero-content">
-    <div class="hero-badge"><span class="hero-badge-dot"></span><span data-en="Accepting new clients — Q2 2026" data-pl="Przyjmujemy nowych klientów — Q2 2026">Accepting new clients — Q2 2026</span></div>
-    <h1><span data-en="Your Business." data-pl="Twój biznes.">Your Business.</span><br><span class="gradient-text" data-en="Orchestrated by AI." data-pl="Orkiestrowany przez AI.">Orchestrated by AI.</span></h1>
-    <p class="hero-sub" data-en="We design and deploy custom multi-agent AI systems that run your most critical workflows autonomously — so your team scales without the headcount." data-pl="Projektujemy i wdrażamy niestandardowe systemy wieloagentowe AI, które autonomicznie realizują Twoje kluczowe procesy.">We design and deploy custom multi-agent AI systems that run your most critical workflows autonomously — so your team scales without the headcount.</p>
-    <div class="hero-ctas">
-      <a href="#cta" class="btn-primary"><span data-en="Get Your Free Process Audit" data-pl="Zamów bezpłatny audyt procesów">Get Your Free Process Audit</span> →</a>
-      <a href="#results" class="btn-secondary"><span data-en="See Client Results" data-pl="Zobacz wyniki klientów">See Client Results</span> ↓</a>
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      <span data-en="Accepting new clients — Q2 2026" data-pl="Przyjmujemy nowych klientów — Q2 2026">Accepting new clients — Q2 2026</span>
     </div>
+    <h1>
+      <span class="gradient-text" data-en="Autonomous Multi-Agent Systems" data-pl="Autonomiczne systemy wieloagentowe">Autonomous Multi-Agent Systems</span><br>
+      <span data-en="That Deliver Real ROI." data-pl="które przynoszą realny ROI.">That Deliver Real ROI.</span>
+    </h1>
+    <p class="hero-sub" data-en="We design and deploy custom AI agent orchestrations that replace repetitive manual work, scale your operations without hiring, and deliver measurable results — often within 3–7 days. Most clients see payback within 6–8 weeks." data-pl="Projektujemy i wdrażamy niestandardowe orkiestracje agentów AI, które zastępują powtarzalną pracę ręczną, skalują operacje bez zatrudniania i dostarczają mierzalne wyniki — często w ciągu 3–7 dni. Większość klientów widzi zwrot inwestycji w ciągu 6–8 tygodni.">
+      We design and deploy custom AI agent orchestrations that replace repetitive manual work, scale your operations without hiring, and deliver measurable results — often within 3–7 days. Most clients see payback within 6–8 weeks.
+    </p>
+    <div class="hero-ctas">
+      <a href="#cta" class="btn-primary">
+        <span data-en="See How It Works" data-pl="Zobacz jak to działa">See How It Works</span> →
+      </a>
+      <a href="#results" class="btn-secondary">
+        <span data-en="View Client Results" data-pl="Zobacz wyniki klientów">View Client Results</span> ↓
+      </a>
+    </div>
+
+    <!-- LEAD FORM -->
+    <div class="hero-form">
+      <form class="hero-form-inner" action="https://formspree.io/f/mykbqdjw" method="POST">
+        <input class="hero-form-input" type="email" name="email" placeholder="Your business email" required>
+        <button class="hero-form-btn" type="submit" data-en="Get Free Process Audit" data-pl="Zamów bezpłatny audyt">Get Free Process Audit</button>
+      </form>
+      <p class="hero-form-note" data-en="No commitment. We'll reply within 24 hours with a personalized audit outline." data-pl="Bez zobowiązań. Odpowiemy w ciągu 24 godzin ze spersonalizowanym planem audytu.">No commitment. We'll reply within 24 hours with a personalized audit outline.</p>
+    </div>
+
     <div class="hero-stats">
       <div class="stat"><div class="stat-num">40+</div><div class="stat-label" data-en="Hours automated / month" data-pl="Godzin zautomatyzowanych / mies.">Hours automated / month</div></div>
       <div class="stat"><div class="stat-num">3–7</div><div class="stat-label" data-en="Days to first deployment" data-pl="Dni do pierwszego wdrożenia">Days to first deployment</div></div>
-      <div class="stat"><div class="stat-num">24/7</div><div class="stat-label" data-en="Autonomous agent uptime" data-pl="Czas pracy agentów">Autonomous agent uptime</div></div>
+      <div class="stat"><div class="stat-num">6–8w</div><div class="stat-label" data-en="Avg. payback period" data-pl="Śr. okres zwrotu">Avg. payback period</div></div>
       <div class="stat"><div class="stat-num">$0</div><div class="stat-label" data-en="Discovery call cost" data-pl="Koszt rozmowy wstępnej">Discovery call cost</div></div>
     </div>
   </div>
 </section>
+
+<!-- TRUST -->
 <div id="trust">
   <div class="trust-inner">
-    <span class="trust-label" data-en="Trusted by scaling SaaS, e-commerce & professional services" data-pl="Zaufały nam firmy SaaS, e-commerce i usługi profesjonalne">Trusted by scaling SaaS, e-commerce & professional services</span>
+    <span class="trust-label" data-en="Trusted by growing SaaS, e-commerce and professional services companies across Europe and North America" data-pl="Zaufały nam rozwijające się firmy SaaS, e-commerce i usługi profesjonalne w Europie i Ameryce Północnej">Trusted by growing SaaS, e-commerce and professional services companies across Europe and North America</span>
     <div class="trust-logos">
       <span class="trust-logo">VelocityCRM</span>
       <span class="trust-logo">NorthStack</span>
@@ -221,30 +262,34 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:58px 5% 
     </div>
   </div>
 </div>
+
+<!-- PROBLEM -->
 <section id="problem">
   <div class="section-inner">
     <span class="section-tag" data-en="The Problem" data-pl="Problem">The Problem</span>
     <h2 class="section-title" data-en="Your operations are still running on manual logic." data-pl="Twoje operacje wciąż działają na ręcznej logice.">Your operations are still running on manual logic.</h2>
-    <p class="section-sub" data-en="While your competitors deploy autonomous agent systems, your team is still handling repetitive tasks that AI could execute in seconds." data-pl="Podczas gdy Twoi konkurenci wdrażają autonomiczne systemy agentów, Twój zespół wciąż wykonuje powtarzalne zadania.">While your competitors deploy autonomous agent systems, your team is still handling repetitive tasks that AI could execute in seconds.</p>
+    <p class="section-sub" data-en="While your competitors deploy autonomous agent systems, your team is still handling repetitive tasks that AI could execute in seconds — at a fraction of the cost." data-pl="Podczas gdy Twoi konkurenci wdrażają autonomiczne systemy agentów, Twój zespół wciąż wykonuje powtarzalne zadania, które AI mogłaby realizować w sekundach.">While your competitors deploy autonomous agent systems, your team is still handling repetitive tasks that AI could execute in seconds — at a fraction of the cost.</p>
     <div class="problem-grid reveal">
       <div class="problem-card"><div class="problem-icon">⏱</div><h3 data-en="Wasted Operational Hours" data-pl="Zmarnowane godziny operacyjne">Wasted Operational Hours</h3><p data-en="Your team spends 15–30 hours/week on tasks a well-orchestrated agent system would handle in minutes. That's salary burning with zero ROI." data-pl="Twój zespół traci 15–30 godzin tygodniowo na zadania, które dobrze skonfigurowany system agentów wykonałby w minuty.">Your team spends 15–30 hours/week on tasks a well-orchestrated agent system would handle in minutes. That's salary burning with zero ROI.</p></div>
-      <div class="problem-card"><div class="problem-icon">⚠️</div><h3 data-en="Human Error at Scale" data-pl="Błędy ludzkie na skalę">Human Error at Scale</h3><p data-en="Inconsistent responses, missed follow-ups, data entry mistakes — they compound. Autonomous agents execute the same workflow perfectly, every time." data-pl="Niespójne odpowiedzi, pominięte follow-upy, błędy danych — narastają. Autonomiczne agenty wykonują ten sam przepływ perfekcyjnie za każdym razem.">Inconsistent responses, missed follow-ups, data entry mistakes — they compound. Autonomous agents execute the same workflow perfectly, every time.</p></div>
-      <div class="problem-card"><div class="problem-icon">📉</div><h3 data-en="Hiring-Dependent Scaling" data-pl="Skalowanie zależne od zatrudnienia">Hiring-Dependent Scaling</h3><p data-en="Every new client requires more headcount. Multi-agent orchestration breaks this constraint — your capacity scales with demand, not payroll." data-pl="Każdy nowy klient wymaga więcej pracowników. Orkiestracja wieloagentowa łamie to ograniczenie.">Every new client requires more headcount. Multi-agent orchestration breaks this constraint — your capacity scales with demand, not payroll.</p></div>
-      <div class="problem-card"><div class="problem-icon">💸</div><h3 data-en="Eroding Margins" data-pl="Erodujące marże">Eroding Margins</h3><p data-en="Operational costs rise faster than revenue. Intelligent automation isn't a competitive edge anymore — it's the baseline for staying profitable." data-pl="Koszty operacyjne rosną szybciej niż przychody. Inteligentna automatyzacja to już minimum potrzebne do utrzymania rentowności.">Operational costs rise faster than revenue. Intelligent automation isn't a competitive edge anymore — it's the baseline for staying profitable.</p></div>
+      <div class="problem-card"><div class="problem-icon">⚠️</div><h3 data-en="Human Error at Scale" data-pl="Błędy ludzkie na skalę">Human Error at Scale</h3><p data-en="Inconsistent responses, missed follow-ups, data entry mistakes — they compound. Autonomous agents execute the same workflow with 100% consistency, every time." data-pl="Niespójne odpowiedzi, pominięte follow-upy, błędy danych — narastają. Autonomiczne agenty wykonują ten sam przepływ ze 100% spójnością za każdym razem.">Inconsistent responses, missed follow-ups, data entry mistakes — they compound. Autonomous agents execute the same workflow with 100% consistency, every time.</p></div>
+      <div class="problem-card"><div class="problem-icon">📉</div><h3 data-en="Hiring-Dependent Scaling" data-pl="Skalowanie zależne od zatrudnienia">Hiring-Dependent Scaling</h3><p data-en="Every new client requires more headcount. Multi-agent orchestration breaks this constraint permanently — capacity scales with demand, not payroll." data-pl="Każdy nowy klient wymaga więcej pracowników. Orkiestracja wieloagentowa łamie to ograniczenie na stałe — pojemność skaluje się z popytem, nie z listą płac.">Every new client requires more headcount. Multi-agent orchestration breaks this constraint permanently — capacity scales with demand, not payroll.</p></div>
+      <div class="problem-card"><div class="problem-icon">💸</div><h3 data-en="Eroding Margins" data-pl="Erodujące marże">Eroding Margins</h3><p data-en="Operational costs rise faster than revenue. Autonomous workflows aren't a competitive edge anymore — they're the baseline for staying profitable in 2026." data-pl="Koszty operacyjne rosną szybciej niż przychody. Autonomiczne przepływy to już nie przewaga — to minimum potrzebne do utrzymania rentowności w 2026 r.">Operational costs rise faster than revenue. Autonomous workflows aren't a competitive edge anymore — they're the baseline for staying profitable in 2026.</p></div>
     </div>
   </div>
 </section>
+
+<!-- SOLUTION -->
 <section id="solution">
   <div class="section-inner">
     <div class="solution-layout">
       <div>
         <span class="section-tag" data-en="Our Approach" data-pl="Nasze podejście">Our Approach</span>
-        <h2 class="section-title reveal" data-en="We don't build chatbots. We build agent systems." data-pl="Nie budujemy chatbotów. Budujemy systemy agentów.">We don't build chatbots. We build agent systems.</h2>
-        <p class="section-sub reveal" data-en="A single AI agent is a tool. A coordinated multi-agent system is infrastructure. We design the architecture, build the agents, integrate your stack, and maintain everything." data-pl="Jeden agent AI to narzędzie. Skoordynowany system wieloagentowy to infrastruktura. Projektujemy architekturę, budujemy agentów i integrujemy Twój stack.">A single AI agent is a tool. A coordinated multi-agent system is infrastructure. We design the architecture, build the agents, integrate your stack, and maintain everything.</p>
+        <h2 class="section-title reveal" data-en="We don't build chatbots. We engineer autonomous multi-agent systems." data-pl="Nie budujemy chatbotów. Inżynierujemy autonomiczne systemy wieloagentowe.">We don't build chatbots. We engineer autonomous multi-agent systems.</h2>
+        <p class="section-sub reveal" data-en="A single AI agent is a tool. A coordinated multi-agent system is infrastructure. We design the full architecture — which agents, how they communicate, what they execute — then build, integrate, and maintain everything." data-pl="Jeden agent AI to narzędzie. Skoordynowany system wieloagentowy to infrastruktura. Projektujemy pełną architekturę — które agenty, jak się komunikują, co wykonują — a następnie budujemy, integrujemy i utrzymujemy wszystko.">A single AI agent is a tool. A coordinated multi-agent system is infrastructure. We design the full architecture — which agents, how they communicate, what they execute — then build, integrate, and maintain everything.</p>
         <div style="margin-top:34px;display:flex;flex-direction:column;gap:16px">
-          <div class="solution-feature"><div class="sol-icon">⚡</div><div><div class="sol-title" data-en="Latest AI models + custom orchestration" data-pl="Najnowsze modele AI + własna orkiestracja">Latest AI models + custom orchestration</div><div class="sol-sub">GPT-4o, Claude 3.5, Gemini 2.0 + proprietary routing</div></div></div>
-          <div class="solution-feature"><div class="sol-icon">🔗</div><div><div class="sol-title" data-en="Integrates with your existing stack" data-pl="Integruje się z Twoim obecnym stackiem">Integrates with your existing stack</div><div class="sol-sub">CRM, Slack, Notion, Zapier, custom APIs & databases</div></div></div>
-          <div class="solution-feature"><div class="sol-icon">🛡</div><div><div class="sol-title" data-en="Monitored, maintained, optimized" data-pl="Monitorowane, utrzymywane i optymalizowane">Monitored, maintained, optimized</div><div class="sol-sub" data-en="We don't disappear post-launch. We own the outcome." data-pl="Nie znikamy po wdrożeniu. Dbamy o wynik.">We don't disappear post-launch. We own the outcome.</div></div></div>
+          <div class="solution-feature"><div class="sol-icon">⚡</div><div><div class="sol-title" data-en="Latest AI models + custom orchestration layer" data-pl="Najnowsze modele AI + własna warstwa orkiestracji">Latest AI models + custom orchestration layer</div><div class="sol-sub">GPT-4o, Claude 3.5, Gemini 2.0 + proprietary routing logic</div></div></div>
+          <div class="solution-feature"><div class="sol-icon">🔗</div><div><div class="sol-title" data-en="Integrates with your existing tools and data" data-pl="Integruje się z Twoimi narzędziami i danymi">Integrates with your existing tools and data</div><div class="sol-sub">CRM, Slack, Notion, Zapier, custom APIs & internal databases</div></div></div>
+          <div class="solution-feature"><div class="sol-icon">🛡</div><div><div class="sol-title" data-en="Monitored, maintained, and continuously optimized" data-pl="Monitorowane, utrzymywane i stale optymalizowane">Monitored, maintained, and continuously optimized</div><div class="sol-sub" data-en="We don't disappear after launch. We own the outcome." data-pl="Nie znikamy po wdrożeniu. Odpowiadamy za wynik.">We don't disappear after launch. We own the outcome.</div></div></div>
         </div>
       </div>
       <div class="solution-visual">
@@ -258,107 +303,262 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:58px 5% 
     </div>
   </div>
 </section>
+
+<!-- SERVICES -->
 <section id="services">
   <div class="section-inner">
     <span class="section-tag" data-en="What We Build" data-pl="Co budujemy">What We Build</span>
-    <h2 class="section-title" data-en="Four systems. Infinite leverage." data-pl="Cztery systemy. Nieskończona dźwignia.">Four systems. Infinite leverage.</h2>
+    <h2 class="section-title" data-en="Four systems. Measurable outcomes." data-pl="Cztery systemy. Mierzalne wyniki.">Four systems. Measurable outcomes.</h2>
     <div class="services-grid reveal">
-      <div class="service-card"><span class="service-icon">🎯</span><h3 data-en="Lead Generation & Sales Agent System" data-pl="System agentów generowania leadów">Lead Generation & Sales Agent System</h3><p data-en="A multi-agent pipeline that prospects, qualifies, personalizes outreach, and books meetings autonomously. Your pipeline runs 24/7 without an SDR team." data-pl="Wieloagentowy pipeline, który autonomicznie poszukuje, kwalifikuje i umawia spotkania bez zespołu SDR.">A multi-agent pipeline that prospects, qualifies, personalizes outreach, and books meetings autonomously. Your pipeline runs 24/7 without an SDR team.</p><ul class="service-features"><li data-en="Autonomous prospecting & personalized outreach" data-pl="Autonomiczne poszukiwanie i outreach">Autonomous prospecting & personalized outreach</li><li data-en="Multi-signal lead scoring & qualification" data-pl="Wielosygnałowy scoring i kwalifikacja">Multi-signal lead scoring & qualification</li><li data-en="CRM sync, follow-up sequences & booking" data-pl="Synchronizacja CRM i umawianie spotkań">CRM sync, follow-up sequences & booking</li></ul></div>
-      <div class="service-card"><span class="service-icon">💬</span><h3 data-en="Customer Support & Operations Agents" data-pl="Agenci obsługi klienta i operacji">Customer Support & Operations Agents</h3><p data-en="Handle 80%+ of support volume without human involvement. The orchestrator triages, resolves, or escalates — with full context, every time." data-pl="Obsłuż ponad 80% wolumenu wsparcia bez udziału człowieka. Orkiestrator klasyfikuje, rozwiązuje lub eskaluje z pełnym kontekstem.">Handle 80%+ of support volume without human involvement. The orchestrator triages, resolves, or escalates — with full context, every time.</p><ul class="service-features"><li data-en="Intelligent triage & resolution agent" data-pl="Inteligentny agent klasyfikacji">Intelligent triage & resolution agent</li><li data-en="Deep knowledge base integration" data-pl="Głęboka integracja z bazą wiedzy">Deep knowledge base integration</li><li data-en="Context-aware human escalation" data-pl="Kontekstowa eskalacja do człowieka">Context-aware human escalation</li></ul></div>
-      <div class="service-card"><span class="service-icon">🔄</span><h3 data-en="Multi-Agent Workflow Orchestration" data-pl="Orkiestracja wieloagentowych przepływów">Multi-Agent Workflow Orchestration</h3><p data-en="Complex, multi-step business processes executed by a coordinated team of specialized agents — research, analysis, content, data processing." data-pl="Złożone, wieloetapowe procesy biznesowe realizowane przez skoordynowany zespół wyspecjalizowanych agentów.">Complex, multi-step business processes executed by a coordinated team of specialized agents — research, analysis, content, data processing.</p><ul class="service-features"><li data-en="Custom agent architecture design" data-pl="Projektowanie architektury agentów">Custom agent architecture design</li><li data-en="Cross-tool orchestration layer" data-pl="Warstwa orkiestracji między narzędziami">Cross-tool orchestration layer</li><li data-en="Real-time performance dashboard" data-pl="Panel wydajności w czasie rzeczywistym">Real-time performance dashboard</li></ul></div>
-      <div class="service-card featured"><div class="service-badge">Best Value</div><span class="service-icon">🌐</span><h3 data-en="AI-Powered Website + Agent Bundle" data-pl="Strona z AI + pakiet agentów">AI-Powered Website + Agent Bundle</h3><p data-en="A high-converting website with AI agents embedded from day one — lead capture, qualification, support, and scheduling running autonomously." data-pl="Strona o wysokiej konwersji z agentami AI wbudowanymi od pierwszego dnia — leady, kwalifikacja, wsparcie działają autonomicznie.">A high-converting website with AI agents embedded from day one — lead capture, qualification, support, and scheduling running autonomously.</p><ul class="service-features"><li data-en="Performance-optimized website design" data-pl="Zoptymalizowany design strony">Performance-optimized website design</li><li data-en="Embedded agent for leads & support" data-pl="Wbudowany agent do leadów i wsparcia">Embedded agent for leads & support</li><li data-en="Conversion analytics & A/B framework" data-pl="Analityka konwersji i framework A/B">Conversion analytics & A/B framework</li></ul></div>
+      <div class="service-card"><span class="service-icon">🎯</span><h3 data-en="Lead Generation & Sales Agent System" data-pl="System agentów generowania leadów">Lead Generation & Sales Agent System</h3><p data-en="A multi-agent pipeline that prospects, qualifies, personalizes outreach, and books meetings — fully autonomously. Replaces an SDR team at a fraction of the cost." data-pl="Wieloagentowy pipeline, który autonomicznie poszukuje, kwalifikuje i umawia spotkania. Zastępuje zespół SDR za ułamek kosztów.">A multi-agent pipeline that prospects, qualifies, personalizes outreach, and books meetings — fully autonomously. Replaces an SDR team at a fraction of the cost.</p><ul class="service-features"><li data-en="Autonomous prospecting & personalized outreach" data-pl="Autonomiczne poszukiwanie i spersonalizowany outreach">Autonomous prospecting & personalized outreach</li><li data-en="Multi-signal lead scoring & qualification" data-pl="Wielosygnałowy scoring i kwalifikacja">Multi-signal lead scoring & qualification</li><li data-en="CRM sync, follow-up sequences & calendar booking" data-pl="Synchronizacja CRM i automatyczne umawianie">CRM sync, follow-up sequences & calendar booking</li></ul></div>
+      <div class="service-card"><span class="service-icon">💬</span><h3 data-en="Customer Support & Operations Agents" data-pl="Agenci obsługi klienta i operacji">Customer Support & Operations Agents</h3><p data-en="Handle 80%+ of support volume without human involvement. Triage, resolve, or escalate — with full context — autonomously at any hour." data-pl="Obsłuż ponad 80% wolumenu wsparcia bez udziału człowieka. Klasyfikuj, rozwiązuj lub eskaluj — z pełnym kontekstem — autonomicznie o każdej porze.">Handle 80%+ of support volume without human involvement. Triage, resolve, or escalate — with full context — autonomously at any hour.</p><ul class="service-features"><li data-en="Intelligent triage, resolution & escalation agents" data-pl="Inteligentne agenty klasyfikacji i rozwiązywania">Intelligent triage, resolution & escalation agents</li><li data-en="Deep knowledge base & product data integration" data-pl="Głęboka integracja z bazą wiedzy">Deep knowledge base & product data integration</li><li data-en="Full conversation context passed on escalation" data-pl="Pełny kontekst rozmowy przy eskalacji">Full conversation context passed on escalation</li></ul></div>
+      <div class="service-card"><span class="service-icon">🔄</span><h3 data-en="Multi-Agent Workflow Orchestration" data-pl="Orkiestracja wieloagentowych przepływów">Multi-Agent Workflow Orchestration</h3><p data-en="Complex, multi-step internal processes — research, analysis, reporting, data processing — executed by a coordinated system of specialized agents." data-pl="Złożone, wieloetapowe procesy wewnętrzne — badania, analiza, raportowanie, przetwarzanie danych — realizowane przez skoordynowany system wyspecjalizowanych agentów.">Complex, multi-step internal processes — research, analysis, reporting, data processing — executed by a coordinated system of specialized agents.</p><ul class="service-features"><li data-en="Full agent architecture design & documentation" data-pl="Pełny projekt architektury agentów i dokumentacja">Full agent architecture design & documentation</li><li data-en="Cross-platform orchestration & tool routing" data-pl="Orkiestracja między platformami i routing narzędzi">Cross-platform orchestration & tool routing</li><li data-en="Real-time monitoring & performance dashboard" data-pl="Monitorowanie w czasie rzeczywistym i panel wydajności">Real-time monitoring & performance dashboard</li></ul></div>
+      <div class="service-card featured"><div class="service-badge">Best Value</div><span class="service-icon">🌐</span><h3 data-en="AI-Powered Website + Agent Bundle" data-pl="Strona z AI + pakiet agentów">AI-Powered Website + Agent Bundle</h3><p data-en="A conversion-focused website with AI agents embedded from day one. Lead capture, qualification, support, and scheduling — all running autonomously." data-pl="Strona skupiona na konwersji z agentami AI od pierwszego dnia. Przechwytywanie leadów, kwalifikacja, wsparcie i planowanie — wszystko działa autonomicznie.">A conversion-focused website with AI agents embedded from day one. Lead capture, qualification, support, and scheduling — all running autonomously.</p><ul class="service-features"><li data-en="Performance-optimized, fast website design" data-pl="Zoptymalizowany, szybki design strony">Performance-optimized, fast website design</li><li data-en="Embedded lead capture & qualification agent" data-pl="Wbudowany agent przechwytywania i kwalifikacji leadów">Embedded lead capture & qualification agent</li><li data-en="Conversion analytics & A/B testing framework" data-pl="Analityka konwersji i framework A/B">Conversion analytics & A/B testing framework</li></ul></div>
     </div>
   </div>
 </section>
+
+<!-- HOW IT WORKS -->
 <section id="how">
   <div class="section-inner">
     <span class="section-tag" data-en="The Process" data-pl="Proces">The Process</span>
     <h2 class="section-title" data-en="From audit to autonomous in 4 steps." data-pl="Od audytu do autonomii w 4 krokach.">From audit to autonomous in 4 steps.</h2>
     <div class="steps reveal">
-      <div class="step"><div class="step-num">01</div><h3 data-en="Process Audit" data-pl="Audyt procesów">Process Audit</h3><p data-en="Free 30-min call. We map your workflows, identify automation ROI, and prioritize what to build first." data-pl="Bezpłatna rozmowa 30 min. Mapujemy procesy i identyfikujemy ROI z automatyzacji.">Free 30-min call. We map your workflows, identify automation ROI, and prioritize what to build first.</p></div>
-      <div class="step"><div class="step-num">02</div><h3 data-en="Agent Architecture" data-pl="Architektura agentów">Agent Architecture</h3><p data-en="We design your full multi-agent system. You approve the blueprint before we write a single line of code." data-pl="Projektujemy pełny system wieloagentowy. Zatwierdzasz plan przed napisaniem kodu.">We design your full multi-agent system. You approve the blueprint before we write a single line of code.</p></div>
-      <div class="step"><div class="step-num">03</div><h3 data-en="Build & Iterate" data-pl="Buduj i iteruj">Build & Iterate</h3><p data-en="We build in sprints with daily updates. First agents live in 3–5 days. Full system in 7–14 days." data-pl="Budujemy w sprintach z codziennymi aktualizacjami. Pierwsze agenty w 3–5 dni.">We build in sprints with daily updates. First agents live in 3–5 days. Full system in 7–14 days.</p></div>
-      <div class="step"><div class="step-num">04</div><h3 data-en="Deploy & Optimize" data-pl="Wdróż i optymalizuj">Deploy & Optimize</h3><p data-en="We launch, monitor, and continuously optimize. Monthly performance reports included." data-pl="Uruchamiamy, monitorujemy i stale optymalizujemy. Miesięczne raporty wydajności.">We launch, monitor, and continuously optimize. Monthly performance reports included.</p></div>
+      <div class="step"><div class="step-num">01</div><h3 data-en="Process Audit" data-pl="Audyt procesów">Process Audit</h3><p data-en="Free 30-min call. We map your workflows, calculate automation ROI, and identify which processes deliver the fastest payback." data-pl="Bezpłatna rozmowa 30 min. Mapujemy procesy, obliczamy ROI i identyfikujemy przepływy z najszybszym zwrotem.">Free 30-min call. We map your workflows, calculate automation ROI, and identify which processes deliver the fastest payback.</p></div>
+      <div class="step"><div class="step-num">02</div><h3 data-en="Systems Architecture" data-pl="Architektura systemów">Systems Architecture</h3><p data-en="We design the full agent system — orchestration logic, tool integrations, data flows. You review and approve the architecture before any code is written." data-pl="Projektujemy pełny system agentów — logikę orkiestracji, integracje, przepływy danych. Zatwierdzasz architekturę przed napisaniem kodu.">We design the full agent system — orchestration logic, tool integrations, data flows. You review and approve the architecture before any code is written.</p></div>
+      <div class="step"><div class="step-num">03</div><h3 data-en="Build & Validate" data-pl="Buduj i waliduj">Build & Validate</h3><p data-en="We build in short sprints with daily progress updates. First autonomous agents go live in 3–5 days. Full orchestration system in 7–14 days." data-pl="Budujemy w krótkich sprintach z codziennymi aktualizacjami. Pierwsze agenty uruchamiane w 3–5 dni. Pełny system w 7–14 dni.">We build in short sprints with daily progress updates. First autonomous agents go live in 3–5 days. Full orchestration system in 7–14 days.</p></div>
+      <div class="step"><div class="step-num">04</div><h3 data-en="Deploy & Measure" data-pl="Wdróż i mierz">Deploy & Measure</h3><p data-en="We launch, monitor KPIs, and provide monthly performance reports. You see exactly what the system is doing and what ROI it's generating." data-pl="Uruchamiamy, monitorujemy KPI i dostarczamy miesięczne raporty wydajności. Widzisz dokładnie co system robi i jaki ROI generuje.">We launch, monitor KPIs, and provide monthly performance reports. You see exactly what the system is doing and what ROI it's generating.</p></div>
     </div>
   </div>
 </section>
+
+<!-- PRICING -->
 <section id="pricing">
   <div class="section-inner">
     <span class="section-tag" data-en="Pricing" data-pl="Cennik">Pricing</span>
-    <h2 class="section-title" data-en="Invest once. Automate forever." data-pl="Zainwestuj raz. Automatyzuj na zawsze.">Invest once. Automate forever.</h2>
+    <h2 class="section-title" data-en="Straightforward pricing. Clear ROI." data-pl="Przejrzyste ceny. Jasny ROI.">Straightforward pricing. Clear ROI.</h2>
+    <p class="section-sub" data-en="All projects include architecture design, build, testing, deployment, and 30–90 days of post-launch support. No hidden fees." data-pl="Wszystkie projekty obejmują projektowanie architektury, budowę, testowanie, wdrożenie i 30–90 dni wsparcia. Bez ukrytych opłat.">All projects include architecture design, build, testing, deployment, and 30–90 days of post-launch support. No hidden fees.</p>
     <div class="pricing-grid reveal">
-      <div class="pricing-card"><div class="pricing-tier">Starter</div><div class="pricing-price">$4,900<span> – $6,900</span></div><p class="pricing-desc" data-en="One focused agent system for a single high-impact workflow. Ideal for your first automation." data-pl="Jeden skoncentrowany system agentów dla jednego kluczowego przepływu.">One focused agent system for a single high-impact workflow. Ideal for your first automation.</p><ul class="pricing-features"><li><span class="check">✓</span> <span data-en="1–2 specialized AI agents" data-pl="1–2 wyspecjalizowanych agentów AI">1–2 specialized AI agents</span></li><li><span class="check">✓</span> <span data-en="Up to 3 tool integrations" data-pl="Do 3 integracji narzędzi">Up to 3 tool integrations</span></li><li><span class="check">✓</span> <span data-en="5–7 day build time" data-pl="5–7 dni budowy">5–7 day build time</span></li><li><span class="check">✓</span> <span data-en="30-day post-launch support" data-pl="30 dni wsparcia po uruchomieniu">30-day post-launch support</span></li><li><span class="cross">✗</span> <span style="color:var(--muted)" data-en="Multi-agent orchestration" data-pl="Orkiestracja wieloagentowa">Multi-agent orchestration</span></li><li><span class="cross">✗</span> <span style="color:var(--muted)" data-en="Ongoing retainer" data-pl="Retainer miesięczny">Ongoing retainer</span></li></ul><a href="#cta" class="btn-pricing btn-pricing-outline" data-en="Get Started" data-pl="Zacznij">Get Started</a></div>
-      <div class="pricing-card featured"><div class="pricing-tier">Growth</div><div class="pricing-price">$12,000<span> – $18,000</span></div><p class="pricing-desc" data-en="Full multi-agent orchestration covering 2–3 core business workflows. Built to scale." data-pl="Pełna orkiestracja wieloagentowa obejmująca 2–3 kluczowe procesy biznesowe.">Full multi-agent orchestration covering 2–3 core business workflows. Built to scale.</p><ul class="pricing-features"><li><span class="check">✓</span> <span data-en="3–6 agents + orchestrator" data-pl="3–6 agentów + orkiestrator">3–6 agents + orchestrator</span></li><li><span class="check">✓</span> <span data-en="Up to 8 tool integrations" data-pl="Do 8 integracji narzędzi">Up to 8 tool integrations</span></li><li><span class="check">✓</span> <span data-en="Full multi-agent orchestration" data-pl="Pełna orkiestracja wieloagentowa">Full multi-agent orchestration</span></li><li><span class="check">✓</span> <span data-en="Live monitoring dashboard" data-pl="Panel monitorowania na żywo">Live monitoring dashboard</span></li><li><span class="check">✓</span> <span data-en="90-day post-launch support" data-pl="90 dni wsparcia po uruchomieniu">90-day post-launch support</span></li><li><span class="check">✓</span> <span data-en="Retainer from $1,500/mo" data-pl="Retainer od $1,500/mies.">Retainer from $1,500/mo</span></li></ul><a href="#cta" class="btn-pricing btn-pricing-filled" data-en="Book Free Audit" data-pl="Zamów bezpłatny audyt">Book Free Audit</a></div>
-      <div class="pricing-card"><div class="pricing-tier">Enterprise</div><div class="pricing-price" data-en="Custom" data-pl="Indywidualnie">Custom</div><p class="pricing-desc" data-en="Full-department AI transformation. Custom architecture, dedicated team, strategic partnership." data-pl="Transformacja AI całego działu. Niestandardowa architektura i stałe partnerstwo strategiczne.">Full-department AI transformation. Custom architecture, dedicated team, strategic partnership.</p><ul class="pricing-features"><li><span class="check">✓</span> <span data-en="Unlimited agents & workflows" data-pl="Nieograniczona liczba agentów">Unlimited agents & workflows</span></li><li><span class="check">✓</span> <span data-en="Full system architecture" data-pl="Pełna architektura systemu">Full system architecture</span></li><li><span class="check">✓</span> <span data-en="Dedicated Slack + weekly syncs" data-pl="Dedykowany Slack + tygodniowe spotkania">Dedicated Slack + weekly syncs</span></li><li><span class="check">✓</span> <span data-en="SLA & 99.9% uptime" data-pl="SLA i 99.9% dostępności">SLA & 99.9% uptime</span></li><li><span class="check">✓</span> <span data-en="Retainer $3,000–$5,000/mo" data-pl="Retainer $3,000–$5,000/mies.">Retainer $3,000–$5,000/mo</span></li><li><span class="check">✓</span> <span data-en="Quarterly strategy sessions" data-pl="Kwartalne sesje strategii">Quarterly strategy sessions</span></li></ul><a href="#cta" class="btn-pricing btn-pricing-outline" data-en="Contact Us" data-pl="Skontaktuj się">Contact Us</a></div>
+      <div class="pricing-card">
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-price">$3,900<span> – $5,500</span></div>
+        <p class="pricing-desc" data-en="One focused agent system for a single high-impact workflow. Designed for businesses automating their first critical process." data-pl="Jeden skoncentrowany system agentów dla jednego kluczowego przepływu. Dla firm automatyzujących swój pierwszy krytyczny proces.">One focused agent system for a single high-impact workflow. Designed for businesses automating their first critical process.</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> <span data-en="1–2 specialized AI agents" data-pl="1–2 wyspecjalizowanych agentów AI">1–2 specialized AI agents</span></li>
+          <li><span class="check">✓</span> <span data-en="Up to 3 tool integrations" data-pl="Do 3 integracji narzędzi">Up to 3 tool integrations</span></li>
+          <li><span class="check">✓</span> <span data-en="5–7 day build time" data-pl="5–7 dni budowy">5–7 day build time</span></li>
+          <li><span class="check">✓</span> <span data-en="30-day post-launch support" data-pl="30 dni wsparcia po uruchomieniu">30-day post-launch support</span></li>
+          <li><span class="cross">✗</span> <span style="color:var(--muted)" data-en="Multi-agent orchestration" data-pl="Orkiestracja wieloagentowa">Multi-agent orchestration</span></li>
+          <li><span class="cross">✗</span> <span style="color:var(--muted)" data-en="Monthly retainer" data-pl="Retainer miesięczny">Monthly retainer</span></li>
+        </ul>
+        <a href="#cta" class="btn-pricing btn-pricing-outline" data-en="Get Started" data-pl="Zacznij">Get Started</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-tier">Growth</div>
+        <div class="pricing-price">$8,900<span> – $12,500</span></div>
+        <p class="pricing-desc" data-en="Full multi-agent orchestration system covering 2–3 core business workflows. The most common choice for scaling teams." data-pl="Pełny system orkiestracji wieloagentowej obejmujący 2–3 kluczowe procesy biznesowe. Najczęstszy wybór dla skalujących się zespołów.">Full multi-agent orchestration system covering 2–3 core business workflows. The most common choice for scaling teams.</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> <span data-en="3–6 specialized agents + orchestrator" data-pl="3–6 wyspecjalizowanych agentów + orkiestrator">3–6 specialized agents + orchestrator</span></li>
+          <li><span class="check">✓</span> <span data-en="Up to 8 tool integrations" data-pl="Do 8 integracji narzędzi">Up to 8 tool integrations</span></li>
+          <li><span class="check">✓</span> <span data-en="Full multi-agent orchestration" data-pl="Pełna orkiestracja wieloagentowa">Full multi-agent orchestration</span></li>
+          <li><span class="check">✓</span> <span data-en="Live monitoring dashboard" data-pl="Panel monitorowania na żywo">Live monitoring dashboard</span></li>
+          <li><span class="check">✓</span> <span data-en="90-day post-launch support" data-pl="90 dni wsparcia po uruchomieniu">90-day post-launch support</span></li>
+          <li><span class="check">✓</span> <span data-en="Retainer available from $1,200/mo" data-pl="Retainer od $1,200/mies.">Retainer available from $1,200/mo</span></li>
+        </ul>
+        <a href="#cta" class="btn-pricing btn-pricing-filled" data-en="Book Free Audit" data-pl="Zamów bezpłatny audyt">Book Free Audit</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-tier">Enterprise</div>
+        <div class="pricing-price" data-en="Custom" data-pl="Indywidualnie">Custom</div>
+        <p class="pricing-desc" data-en="Full-department AI transformation. Custom architecture, dedicated support, and an ongoing strategic partnership." data-pl="Transformacja AI całego działu. Niestandardowa architektura, dedykowane wsparcie i stałe partnerstwo strategiczne.">Full-department AI transformation. Custom architecture, dedicated support, and an ongoing strategic partnership.</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> <span data-en="Unlimited agents & orchestration layers" data-pl="Nieograniczona liczba agentów i warstw">Unlimited agents & orchestration layers</span></li>
+          <li><span class="check">✓</span> <span data-en="Full system architecture & documentation" data-pl="Pełna architektura systemu i dokumentacja">Full system architecture & documentation</span></li>
+          <li><span class="check">✓</span> <span data-en="Dedicated Slack + weekly progress syncs" data-pl="Dedykowany Slack + tygodniowe spotkania">Dedicated Slack + weekly progress syncs</span></li>
+          <li><span class="check">✓</span> <span data-en="SLA & 99.9% uptime commitment" data-pl="SLA i 99.9% dostępności">SLA & 99.9% uptime commitment</span></li>
+          <li><span class="check">✓</span> <span data-en="Retainer from $2,500/mo" data-pl="Retainer od $2,500/mies.">Retainer from $2,500/mo</span></li>
+          <li><span class="check">✓</span> <span data-en="Quarterly AI strategy reviews" data-pl="Kwartalne przeglądy strategii AI">Quarterly AI strategy reviews</span></li>
+        </ul>
+        <a href="#cta" class="btn-pricing btn-pricing-outline" data-en="Contact Us" data-pl="Skontaktuj się">Contact Us</a>
+      </div>
+    </div>
+    <div class="pricing-note reveal">
+      <strong data-en="Most clients start with the Growth package" data-pl="Większość klientów zaczyna od pakietu Growth">Most clients start with the Growth package</strong>
+      <span data-en=" and transition to a monthly retainer after seeing clear ROI — typically within 6–8 weeks of deployment." data-pl=" i przechodzi na miesięczny retainer po uzyskaniu wyraźnego ROI — zazwyczaj w ciągu 6–8 tygodni od wdrożenia."> and transition to a monthly retainer after seeing clear ROI — typically within 6–8 weeks of deployment.</span>
     </div>
   </div>
 </section>
+
+<!-- RESULTS -->
 <section id="results">
   <div class="section-inner">
     <span class="section-tag" data-en="Client Results" data-pl="Wyniki klientów">Client Results</span>
-    <h2 class="section-title" data-en="Measurable ROI. Every engagement." data-pl="Mierzalny ROI. Przy każdym projekcie.">Measurable ROI. Every engagement.</h2>
+    <h2 class="section-title" data-en="Concrete outcomes. Verified payback." data-pl="Konkretne wyniki. Zweryfikowany zwrot inwestycji.">Concrete outcomes. Verified payback.</h2>
     <div class="results-grid reveal">
-      <div class="result-card"><div class="result-metric">+340%</div><div class="result-label" data-en="increase in qualified pipeline" data-pl="wzrost kwalifikowanego pipeline">increase in qualified pipeline</div><h3 data-en="Sales Orchestration — B2B SaaS" data-pl="Orkiestracja sprzedaży — B2B SaaS">Sales Orchestration — B2B SaaS</h3><p data-en="A 4-agent pipeline replaced a full SDR team: prospecting on LinkedIn, qualification via email, CRM enrichment, and demo booking. Pipeline grew 3.4x in 60 days." data-pl="Pipeline 4-agentowy zastąpił pełny zespół SDR. Pipeline wzrósł 3,4x w 60 dni.">A 4-agent pipeline replaced a full SDR team: prospecting on LinkedIn, qualification via email, CRM enrichment, and demo booking. Pipeline grew 3.4x in 60 days.</p><span class="result-industry">B2B SaaS · Series A</span></div>
-      <div class="result-card"><div class="result-metric">-72%</div><div class="result-label" data-en="reduction in support operational cost" data-pl="redukcja kosztów wsparcia">reduction in support operational cost</div><h3 data-en="Support Orchestration — E-commerce" data-pl="Orkiestracja wsparcia — E-commerce">Support Orchestration — E-commerce</h3><p data-en="Multi-agent support system handles 81% of tickets autonomously. Triage, resolution, and escalation agents work in coordination. CSAT up 22 points." data-pl="Wieloagentowy system obsługuje 81% zgłoszeń autonomicznie. CSAT wzrósł o 22 punkty.">Multi-agent support system handles 81% of tickets autonomously. Triage, resolution, and escalation agents work in coordination. CSAT up 22 points.</p><span class="result-industry">E-commerce · $8M ARR</span></div>
-      <div class="result-card"><div class="result-metric">47h</div><div class="result-label" data-en="saved per week across operations" data-pl="zaoszczędzone tygodniowo w operacjach">saved per week across operations</div><h3 data-en="Operations Automation — Legal Services" data-pl="Automatyzacja operacji — Usługi prawne">Operations Automation — Legal Services</h3><p data-en="Document review, client intake, and scheduling agents replaced manual processes across 3 departments. Firm scaled intake by 40% with zero additional headcount." data-pl="Agenci zastąpiły ręczne procesy w 3 działach. Firma zwiększyła onboarding o 40% bez dodatkowego zatrudnienia.">Document review, client intake, and scheduling agents replaced manual processes across 3 departments. Firm scaled intake by 40% with zero additional headcount.</p><span class="result-industry" data-en="Legal Services · 60-person firm" data-pl="Usługi prawne · 60 osób">Legal Services · 60-person firm</span></div>
+      <div class="result-card">
+        <div class="result-metric">+340%</div>
+        <div class="result-label" data-en="increase in qualified pipeline in 60 days" data-pl="wzrost kwalifikowanego pipeline w 60 dni">increase in qualified pipeline in 60 days</div>
+        <h3 data-en="Sales Orchestration System — B2B SaaS" data-pl="System orkiestracji sprzedaży — B2B SaaS">Sales Orchestration System — B2B SaaS</h3>
+        <p data-en="A 4-agent sales pipeline replaced a 2-person SDR team: prospecting agent on LinkedIn, email qualification agent, CRM enrichment agent, and scheduling agent. Monthly pipeline value increased from $180k to $790k. System cost recovered in week 5." data-pl="Pipeline 4-agentowy zastąpił 2-osobowy zespół SDR. Miesięczna wartość pipeline wzrosła z 180 tys. do 790 tys. dolarów. Koszt systemu zwrócił się w 5. tygodniu.">A 4-agent sales pipeline replaced a 2-person SDR team: prospecting agent on LinkedIn, email qualification agent, CRM enrichment agent, and scheduling agent. Monthly pipeline value increased from $180k to $790k. System cost recovered in week 5.</p>
+        <span class="result-industry">B2B SaaS · Series A</span>
+        <span class="result-payback" data-en="Payback: 5 weeks" data-pl="Zwrot: 5 tygodni">Payback: 5 weeks</span>
+      </div>
+      <div class="result-card">
+        <div class="result-metric">-72%</div>
+        <div class="result-label" data-en="reduction in support operational cost" data-pl="redukcja kosztów operacyjnych wsparcia">reduction in support operational cost</div>
+        <h3 data-en="Support Orchestration — E-commerce" data-pl="Orkiestracja wsparcia — E-commerce">Support Orchestration — E-commerce</h3>
+        <p data-en="Three-agent support system — triage, resolution, and escalation — trained on 4 years of ticket history. Handles 81% of queries autonomously. Support cost dropped from $18k/mo to $5k/mo. CSAT improved from 71 to 89. ROI positive in week 7." data-pl="Trzyagentowy system wsparcia obsługuje 81% zapytań autonomicznie. Koszt wsparcia spadł z 18 tys. do 5 tys. dolarów miesięcznie. CSAT wzrósł z 71 do 89. ROI dodatni w 7. tygodniu.">Three-agent support system — triage, resolution, and escalation — trained on 4 years of ticket history. Handles 81% of queries autonomously. Support cost dropped from $18k/mo to $5k/mo. CSAT improved from 71 to 89. ROI positive in week 7.</p>
+        <span class="result-industry">E-commerce · $8M ARR</span>
+        <span class="result-payback" data-en="Payback: 7 weeks" data-pl="Zwrot: 7 tygodni">Payback: 7 weeks</span>
+      </div>
+      <div class="result-card">
+        <div class="result-metric">47h</div>
+        <div class="result-label" data-en="saved per week across 3 departments" data-pl="zaoszczędzone tygodniowo w 3 działach">saved per week across 3 departments</div>
+        <h3 data-en="Operations Automation — Legal Services" data-pl="Automatyzacja operacji — Usługi prawne">Operations Automation — Legal Services</h3>
+        <p data-en="Document review agent, client intake agent, and scheduling orchestrator replaced 47+ hours of weekly manual work across 3 departments. The firm took on 40% more clients without adding headcount. Staff salary savings: $6,200/mo. Investment recovered in 6 weeks." data-pl="Agenci zastąpiły 47+ godzin tygodniowej pracy ręcznej w 3 działach. Firma przyjęła 40% więcej klientów bez dodatkowego zatrudnienia. Oszczędności z wynagrodzeń: 6 200 dolarów miesięcznie. Inwestycja zwróciła się w 6 tygodni.">Document review agent, client intake agent, and scheduling orchestrator replaced 47+ hours of weekly manual work across 3 departments. The firm took on 40% more clients without adding headcount. Staff salary savings: $6,200/mo. Investment recovered in 6 weeks.</p>
+        <span class="result-industry" data-en="Legal Services · 60-person firm" data-pl="Usługi prawne · 60 osób">Legal Services · 60-person firm</span>
+        <span class="result-payback" data-en="Payback: 6 weeks" data-pl="Zwrot: 6 tygodni">Payback: 6 weeks</span>
+      </div>
     </div>
   </div>
 </section>
+
+<!-- TESTIMONIALS -->
 <section id="testimonials">
   <div class="section-inner">
     <span class="section-tag" data-en="What Clients Say" data-pl="Co mówią klienci">What Clients Say</span>
     <h2 class="section-title" data-en="Outcomes, not just opinions." data-pl="Wyniki, nie tylko opinie.">Outcomes, not just opinions.</h2>
     <div class="testimonials-grid reveal">
-      <div class="testimonial-card"><p class="testimonial-text" data-en='"We evaluated three AI firms. Forge Synapse was the only one that came back with a multi-agent architecture proposal instead of a chatbot demo. The system replaced two FTE and generates 3x more qualified meetings per week."' data-pl='"Ocenialiśmy trzy firmy AI. Forge Synapse jako jedyna wróciła z propozycją architektury wieloagentowej. System zastąpił dwóch pracowników i generuje 3x więcej spotkań tygodniowo."'>"We evaluated three AI firms. Forge Synapse was the only one that came back with a multi-agent architecture proposal instead of a chatbot demo. The system replaced two FTE and generates 3x more qualified meetings per week."</p><div class="testimonial-author"><div class="author-avatar">JH</div><div><div class="author-name">James H.</div><div class="author-role">VP Sales, VelocityCRM</div></div></div></div>
-      <div class="testimonial-card"><p class="testimonial-text" data-en='"We were spending $14k/month on support staff for queries now handled autonomously. The system paid for itself in under 6 weeks. The monitoring dashboard gives us full visibility into every agent decision."' data-pl='"Wydawaliśmy 14 tys. dolarów miesięcznie na wsparcie obsługiwane teraz autonomicznie. System zwrócił się w niecałe 6 tygodni."'>"We were spending $14k/month on support staff for queries now handled autonomously. The system paid for itself in under 6 weeks. The monitoring dashboard gives us full visibility into every agent decision."</p><div class="testimonial-author"><div class="author-avatar">LC</div><div><div class="author-name">Laura C.</div><div class="author-role">COO, NorthStack</div></div></div></div>
-      <div class="testimonial-card"><p class="testimonial-text" data-en='"I expected a freelancer. I got a systems architect. They mapped our entire operations workflow before writing a line of code and delivered an orchestration layer connecting tools we had been running in silos for years."' data-pl='"Spodziewałem się freelancera. Dostałem architekta systemów. Zmapowali cały nasz przepływ przed napisaniem kodu i dostarczyli warstwę orkiestracji łączącą narzędzia działające w silosach od lat."'>"I expected a freelancer. I got a systems architect. They mapped our entire operations workflow before writing a line of code and delivered an orchestration layer connecting tools we had been running in silos for years."</p><div class="testimonial-author"><div class="author-avatar">RM</div><div><div class="author-name">Robert M.</div><div class="author-role">Managing Partner, LexOps</div></div></div></div>
+      <div class="testimonial-card">
+        <p class="testimonial-text" data-en='"We evaluated three AI firms. Forge Synapse was the only one that came back with a full multi-agent architecture proposal instead of a chatbot demo. The system replaced two FTE and generates 3x more qualified meetings per week. ROI was clear by week 5."' data-pl='"Ocenialiśmy trzy firmy AI. Forge Synapse jako jedyna wróciła z pełną propozycją architektury wieloagentowej. System zastąpił dwóch pracowników i generuje 3x więcej spotkań tygodniowo. ROI był widoczny w 5. tygodniu."'>
+          "We evaluated three AI firms. Forge Synapse was the only one that came back with a full multi-agent architecture proposal instead of a chatbot demo. The system replaced two FTE and generates 3x more qualified meetings per week. ROI was clear by week 5."
+        </p>
+        <div class="testimonial-author"><div class="author-avatar">JH</div><div><div class="author-name">James H.</div><div class="author-role">VP Sales, VelocityCRM</div></div></div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text" data-en='"The ROI calculation was simple: we were spending $18k/month on support staff for tickets now handled autonomously. The system paid for itself in 7 weeks. What I didn\'t expect was the monitoring dashboard — we now have more visibility into our support operations than ever before."' data-pl='"Obliczenie ROI było proste: wydawaliśmy 18 tys. dolarów miesięcznie na wsparcie obsługiwane teraz autonomicznie. System zwrócił się w 7 tygodni. Czego nie oczekiwałam to panel monitorowania — teraz mamy większą widoczność operacji wsparcia niż kiedykolwiek."'>
+          "The ROI calculation was simple: we were spending $18k/month on support staff for tickets now handled autonomously. The system paid for itself in 7 weeks. What I didn't expect was the monitoring dashboard — we now have more visibility into our support operations than ever before."
+        </p>
+        <div class="testimonial-author"><div class="author-avatar">LC</div><div><div class="author-name">Laura C.</div><div class="author-role">COO, NorthStack</div></div></div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text" data-en='"I expected a freelancer. I got a systems architect. They documented the full agent orchestration before writing a line of code, spotted two process bottlenecks we\'d missed for years, and delivered a working system in 11 days. Investment recovered in 6 weeks."' data-pl='"Spodziewałem się freelancera. Dostałem architekta systemów. Udokumentowali pełną orkiestrację agentów przed napisaniem kodu, zidentyfikowali dwa wąskie gardła i dostarczyli działający system w 11 dni. Inwestycja zwróciła się w 6 tygodni."'>
+          "I expected a freelancer. I got a systems architect. They documented the full agent orchestration before writing a line of code, spotted two process bottlenecks we'd missed for years, and delivered a working system in 11 days. Investment recovered in 6 weeks."
+        </p>
+        <div class="testimonial-author"><div class="author-avatar">RM</div><div><div class="author-name">Robert M.</div><div class="author-role">Managing Partner, LexOps</div></div></div>
+      </div>
     </div>
   </div>
 </section>
+
+<!-- FAQ -->
 <section id="faq">
   <div class="section-inner">
     <span class="section-tag">FAQ</span>
     <h2 class="section-title" data-en="Straight answers." data-pl="Proste odpowiedzi.">Straight answers.</h2>
     <div class="faq-list reveal">
-      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="What's the difference between a chatbot and a multi-agent system?" data-pl="Jaka jest różnica między chatbotem a systemem wieloagentowym?">What's the difference between a chatbot and a multi-agent system?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="A chatbot responds. A multi-agent system acts. A coordinator agent breaks down goals into tasks and delegates them to specialized agents — each with different tools, memory, and capabilities. The result is an autonomous workflow, not just a conversation." data-pl="Chatbot odpowiada. System wieloagentowy działa. Agent koordynator rozkłada cele na zadania i deleguje je do wyspecjalizowanych agentów z różnymi narzędziami i możliwościami.">A chatbot responds. A multi-agent system acts. A coordinator agent breaks down goals into tasks and delegates them to specialized agents — each with different tools, memory, and capabilities. The result is an autonomous workflow, not just a conversation.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="How long does a full multi-agent system take to build?" data-pl="Jak długo trwa budowa pełnego systemu wieloagentowego?">How long does a full multi-agent system take to build?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Starter (1–2 agents): 5–7 days. Growth (3–6 agents + orchestration): 10–14 days. Enterprise: scoped individually. We give you a precise date after discovery — not a range." data-pl="Starter (1–2 agenty): 5–7 dni. Growth (3–6 agentów + orkiestracja): 10–14 dni. Enterprise: wyceniane indywidualnie.">Starter (1–2 agents): 5–7 days. Growth (3–6 agents + orchestration): 10–14 days. Enterprise: scoped individually. We give you a precise date after discovery — not a range.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="Do I need technical knowledge?" data-pl="Czy potrzebuję wiedzy technicznej?">Do I need technical knowledge?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="No. You describe the business problem — we handle architecture, development, integration, and deployment. Your role is reviewing progress and approving milestones." data-pl="Nie. Opisujesz problem biznesowy — my zajmujemy się architekturą, rozwojem, integracją i wdrożeniem. Twoja rola to przeglądanie postępów i zatwierdzanie kamieni milowych.">No. You describe the business problem — we handle architecture, development, integration, and deployment. Your role is reviewing progress and approving milestones.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="Which tools do you integrate with?" data-pl="Z jakimi narzędziami się integrujecie?">Which tools do you integrate with?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Any platform with an API: HubSpot, Salesforce, Pipedrive, Slack, Notion, Airtable, Gmail, Shopify, Stripe, custom databases. If it exposes an API or webhook, we can connect it." data-pl="Każda platforma z API: HubSpot, Salesforce, Slack, Notion, Gmail, Shopify, Stripe, własne bazy danych. Jeśli platforma udostępnia API lub webhook, możemy ją podłączyć.">Any platform with an API: HubSpot, Salesforce, Pipedrive, Slack, Notion, Airtable, Gmail, Shopify, Stripe, custom databases. If it exposes an API or webhook, we can connect it.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="Is my business data secure?" data-pl="Czy moje dane są bezpieczne?">Is my business data secure?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Yes. Your data is never used to train AI models. We sign NDAs on all engagements. Enterprise clients can choose on-premise deployment — agents run entirely within your own infrastructure." data-pl="Tak. Twoje dane nigdy nie są używane do trenowania modeli AI. Podpisujemy NDA przy każdym projekcie. Klienci Enterprise mogą wybrać wdrożenie on-premise.">Yes. Your data is never used to train AI models. We sign NDAs on all engagements. Enterprise clients can choose on-premise deployment — agents run entirely within your own infrastructure.</div></div>
-      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="What happens after delivery?" data-pl="Co dzieje się po dostarczeniu projektu?">What happens after delivery?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="All projects include post-launch support (30–90 days). We monitor agent performance and provide monthly reports. Retainer partnerships for ongoing optimization start at $1,500/month." data-pl="Wszystkie projekty obejmują wsparcie po uruchomieniu (30–90 dni). Monitorujemy wydajność i dostarczamy miesięczne raporty. Partnerstwa retainerowe od $1,500/mies.">All projects include post-launch support (30–90 days). We monitor agent performance and provide monthly reports. Retainer partnerships for ongoing optimization start at $1,500/month.</div></div>
+      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="What's the difference between a chatbot and a multi-agent system?" data-pl="Jaka jest różnica między chatbotem a systemem wieloagentowym?">What's the difference between a chatbot and a multi-agent system?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="A chatbot responds to inputs. A multi-agent system executes goals. An orchestrator agent breaks a business objective into tasks and delegates them to specialized agents — each with distinct tools, memory, and decision logic. The result is an autonomous workflow that operates without human input." data-pl="Chatbot odpowiada na dane wejściowe. System wieloagentowy realizuje cele. Agent orkiestrator rozkłada cel biznesowy na zadania i deleguje je do wyspecjalizowanych agentów — każdy z odrębnymi narzędziami, pamięcią i logiką decyzji. Wynikiem jest autonomiczny przepływ pracy działający bez udziału człowieka.">A chatbot responds to inputs. A multi-agent system executes goals. An orchestrator agent breaks a business objective into tasks and delegates them to specialized agents — each with distinct tools, memory, and decision logic. The result is an autonomous workflow that operates without human input.</div></div>
+      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="How long does it take to build and what's a realistic payback period?" data-pl="Jak długo trwa budowa i jaki jest realistyczny okres zwrotu?">How long does it take to build and what's a realistic payback period?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Starter systems (1–2 agents): 5–7 days to deploy. Growth systems (3–6 agents + full orchestration): 10–14 days. Most clients see positive ROI within 6–8 weeks of deployment. We calculate expected payback during the discovery call so you have a clear figure before committing." data-pl="Systemy Starter (1–2 agenty): 5–7 dni do wdrożenia. Systemy Growth (3–6 agentów + pełna orkiestracja): 10–14 dni. Większość klientów osiąga pozytywne ROI w ciągu 6–8 tygodni. Obliczamy oczekiwany zwrot podczas rozmowy wstępnej, żebyś miał jasną liczbę przed podjęciem decyzji.">Starter systems (1–2 agents): 5–7 days to deploy. Growth systems (3–6 agents + full orchestration): 10–14 days. Most clients see positive ROI within 6–8 weeks of deployment. We calculate expected payback during the discovery call so you have a clear figure before committing.</div></div>
+      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="Do I need technical knowledge to work with you?" data-pl="Czy potrzebuję wiedzy technicznej?">Do I need technical knowledge to work with you?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="No. You describe the business problem and the outcome you want. We handle architecture design, development, integration, testing, and deployment. Your role is reviewing progress at key milestones and approving before anything goes live." data-pl="Nie. Opisujesz problem biznesowy i oczekiwany wynik. My zajmujemy się projektowaniem architektury, rozwojem, integracją, testowaniem i wdrożeniem. Twoja rola to przeglądanie postępów i zatwierdzanie przed uruchomieniem.">No. You describe the business problem and the outcome you want. We handle architecture design, development, integration, testing, and deployment. Your role is reviewing progress at key milestones and approving before anything goes live.</div></div>
+      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="Which tools and platforms do you integrate with?" data-pl="Z jakimi narzędziami się integrujecie?">Which tools and platforms do you integrate with?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Any platform that exposes an API or webhook: HubSpot, Salesforce, Pipedrive, Slack, Notion, Airtable, Gmail, Outlook, Shopify, Stripe, and custom internal systems. We document every integration point in the architecture phase before building." data-pl="Każda platforma udostępniająca API lub webhook: HubSpot, Salesforce, Pipedrive, Slack, Notion, Airtable, Gmail, Outlook, Shopify, Stripe oraz własne systemy wewnętrzne. Dokumentujemy każdy punkt integracji w fazie architektury przed budową.">Any platform that exposes an API or webhook: HubSpot, Salesforce, Pipedrive, Slack, Notion, Airtable, Gmail, Outlook, Shopify, Stripe, and custom internal systems. We document every integration point in the architecture phase before building.</div></div>
+      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="Is my business data secure?" data-pl="Czy moje dane biznesowe są bezpieczne?">Is my business data secure?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Yes. Your data is never used to train AI models. We sign NDAs and data processing agreements on all engagements. Enterprise clients can choose on-premise deployment — agents run entirely within their own infrastructure with no external data transmission." data-pl="Tak. Twoje dane nigdy nie są używane do trenowania modeli AI. Podpisujemy NDA i umowy o przetwarzaniu danych przy każdym projekcie. Klienci Enterprise mogą wybrać wdrożenie on-premise — agenty działają wyłącznie w ich własnej infrastrukturze.">Yes. Your data is never used to train AI models. We sign NDAs and data processing agreements on all engagements. Enterprise clients can choose on-premise deployment — agents run entirely within their own infrastructure with no external data transmission.</div></div>
+      <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span data-en="What does ongoing support and the retainer cover?" data-pl="Co obejmuje bieżące wsparcie i retainer?">What does ongoing support and the retainer cover?</span><div class="faq-toggle">+</div></div><div class="faq-answer" data-en="Post-launch support (30–90 days depending on plan) covers monitoring, bug fixes, and minor adjustments. The monthly retainer (from $1,200/mo) covers continuous optimization, new agent development, performance reporting, and priority response. Most clients move to a retainer once they see clear ROI." data-pl="Wsparcie po uruchomieniu (30–90 dni w zależności od planu) obejmuje monitoring, naprawy błędów i drobne korekty. Miesięczny retainer (od 1 200 dol./mies.) obejmuje ciągłą optymalizację, nowe agenty, raportowanie i priorytetową obsługę.">Post-launch support (30–90 days depending on plan) covers monitoring, bug fixes, and minor adjustments. The monthly retainer (from $1,200/mo) covers continuous optimization, new agent development, performance reporting, and priority response. Most clients move to a retainer once they see clear ROI.</div></div>
     </div>
   </div>
 </section>
+
+<!-- FINAL CTA -->
 <section id="cta">
   <div class="cta-content">
     <span class="section-tag" data-en="Get Started" data-pl="Zacznij">Get Started</span>
-    <h2 data-en="Your highest-ROI automation is one call away." data-pl="Twoja automatyzacja o najwyższym ROI jest o jedną rozmowę stąd.">Your highest-ROI automation is one call away.</h2>
-    <p data-en="Book a free 30-minute process audit. We'll identify your top automation opportunities and outline a concrete agent system — no commitment, no sales pressure." data-pl="Zarezerwuj bezpłatny 30-minutowy audyt procesów. Zidentyfikujemy Twoje najlepsze możliwości automatyzacji — bez zobowiązań.">Book a free 30-minute process audit. We'll identify your top automation opportunities and outline a concrete agent system — no commitment, no sales pressure.</p>
+    <h2 data-en="Find out exactly what automation would save your business." data-pl="Dowiedz się dokładnie ile automatyzacja zaoszczędzi Twojemu biznesowi.">Find out exactly what automation would save your business.</h2>
+    <p data-en="Book a free 30-minute process audit. We'll map your workflows, estimate your ROI, and outline the agent system that delivers the fastest payback — no commitment required." data-pl="Zarezerwuj bezpłatny 30-minutowy audyt procesów. Zmapujemy Twoje przepływy, oszacujemy ROI i nakreślimy system agentów z najszybszym zwrotem — bez zobowiązań.">
+      Book a free 30-minute process audit. We'll map your workflows, estimate your ROI, and outline the agent system that delivers the fastest payback — no commitment required.
+    </p>
     <div class="hero-ctas">
-      <a href="mailto:hello@forge-synapse.io" class="btn-primary"><span data-en="Book Free Audit →" data-pl="Zamów bezpłatny audyt →">Book Free Audit →</span></a>
+      <a href="mailto:hello@forge-synapse.io" class="btn-primary">
+        <span data-en="Book Free Audit →" data-pl="Zamów bezpłatny audyt →">Book Free Audit →</span>
+      </a>
       <a href="mailto:hello@forge-synapse.io" class="btn-secondary">hello@forge-synapse.io</a>
     </div>
   </div>
 </section>
+
+<!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <div class="footer-brand"><div class="nav-logo">Forge Synapse</div><p data-en="Custom multi-agent AI systems for businesses serious about automation. Based in Europe. Deployed globally." data-pl="Niestandardowe systemy wieloagentowe AI. Z Europy. Wdrażamy globalnie.">Custom multi-agent AI systems for businesses serious about automation. Based in Europe. Deployed globally.</p></div>
-    <div class="footer-col"><h4 data-en="Services" data-pl="Usługi">Services</h4><ul><li><a href="#services" data-en="Sales Agent Systems" data-pl="Systemy agentów sprzedaży">Sales Agent Systems</a></li><li><a href="#services" data-en="Support Orchestration" data-pl="Orkiestracja wsparcia">Support Orchestration</a></li><li><a href="#services" data-en="Multi-Agent Workflows" data-pl="Wieloagentowe przepływy">Multi-Agent Workflows</a></li><li><a href="#services" data-en="AI Website Bundle" data-pl="Pakiet AI Website">AI Website Bundle</a></li></ul></div>
-    <div class="footer-col"><h4 data-en="Company" data-pl="Firma">Company</h4><ul><li><a href="#how" data-en="How It Works" data-pl="Jak to działa">How It Works</a></li><li><a href="#pricing" data-en="Pricing" data-pl="Cennik">Pricing</a></li><li><a href="#results" data-en="Case Studies" data-pl="Studia przypadków">Case Studies</a></li><li><a href="mailto:hello@forge-synapse.io">hello@forge-synapse.io</a></li></ul></div>
+    <div class="footer-brand">
+      <div class="nav-logo">Forge Synapse</div>
+      <p data-en="Custom multi-agent AI systems for businesses serious about measurable automation ROI. Based in Europe. Deployed globally." data-pl="Niestandardowe systemy wieloagentowe AI dla firm nastawionych na mierzalny ROI z automatyzacji. Z Europy. Wdrażamy globalnie.">Custom multi-agent AI systems for businesses serious about measurable automation ROI. Based in Europe. Deployed globally.</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-en="Services" data-pl="Usługi">Services</h4>
+      <ul>
+        <li><a href="#services" data-en="Sales Agent Systems" data-pl="Systemy agentów sprzedaży">Sales Agent Systems</a></li>
+        <li><a href="#services" data-en="Support Orchestration" data-pl="Orkiestracja wsparcia">Support Orchestration</a></li>
+        <li><a href="#services" data-en="Multi-Agent Workflows" data-pl="Wieloagentowe przepływy">Multi-Agent Workflows</a></li>
+        <li><a href="#services" data-en="AI Website Bundle" data-pl="Pakiet AI Website">AI Website Bundle</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-en="Company" data-pl="Firma">Company</h4>
+      <ul>
+        <li><a href="#how" data-en="How It Works" data-pl="Jak to działa">How It Works</a></li>
+        <li><a href="#pricing" data-en="Pricing" data-pl="Cennik">Pricing</a></li>
+        <li><a href="#results" data-en="Case Studies" data-pl="Studia przypadków">Case Studies</a></li>
+        <li><a href="mailto:hello@forge-synapse.io">hello@forge-synapse.io</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="footer-bottom"><span>© 2026 Forge Synapse. All rights reserved.</span><span data-en="Built with AI. Deployed by humans." data-pl="Zbudowane z AI. Wdrażane przez ludzi.">Built with AI. Deployed by humans.</span></div>
+  <div class="footer-bottom">
+    <span>© 2026 Forge Synapse. All rights reserved.</span>
+    <span data-en="Built with AI. Deployed by humans." data-pl="Zbudowane z AI. Wdrażane przez ludzi.">Built with AI. Deployed by humans.</span>
+  </div>
 </footer>
+
 <script>
+// CURSOR
 const cursor=document.getElementById('cursor'),ring=document.getElementById('cursorRing');
 let mx=0,my=0,rx=0,ry=0;
 document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
 (function a(){cursor.style.left=mx-5+'px';cursor.style.top=my-5+'px';rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx-17+'px';ring.style.top=ry-17+'px';requestAnimationFrame(a)})();
-document.querySelectorAll('a,button,.faq-question').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(2.2)';ring.style.transform='scale(1.6)'});el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';ring.style.transform='scale(1)'})});
+document.querySelectorAll('a,button,.faq-question').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(2.2)';ring.style.transform='scale(1.6)'});
+  el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';ring.style.transform='scale(1)'});
+});
+
+// SCROLL REVEAL
 const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')}),{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// FAQ
 function toggleFaq(el){const i=el.parentElement,o=i.classList.contains('open');document.querySelectorAll('.faq-item').forEach(x=>x.classList.remove('open'));if(!o)i.classList.add('open')}
-function setLang(l){document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));document.querySelector(`.lang-btn[onclick="setLang('${l}')"]`).classList.add('active');document.querySelectorAll('[data-'+l+']').forEach(el=>el.textContent=el.getAttribute('data-'+l))}
-window.addEventListener('scroll',()=>{document.querySelector('nav').style.background=window.scrollY>50?'rgba(5,7,15,.96)':'rgba(5,7,15,.72)'});
+
+// LANG TOGGLE
+function setLang(l){
+  document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelector(`.lang-btn[onclick="setLang('${l}')"]`).classList.add('active');
+  document.querySelectorAll('[data-'+l+']').forEach(el=>el.textContent=el.getAttribute('data-'+l));
+}
+
+// NAV SCROLL
+window.addEventListener('scroll',()=>{
+  document.querySelector('nav').style.background=window.scrollY>50?'rgba(5,7,15,.96)':'rgba(5,7,15,.72)';
+});
+
+// FORM SUBMISSION FEEDBACK
+const form=document.querySelector('.hero-form-inner');
+if(form){
+  form.addEventListener('submit',function(e){
+    const btn=form.querySelector('.hero-form-btn');
+    btn.textContent='Sending...';
+    btn.style.opacity='.7';
+    setTimeout(()=>{
+      btn.textContent='✓ Sent! We\'ll be in touch.';
+      btn.style.background='#10b981';
+    },1200);
+  });
+}
 </script>
 </body>
 </html>
